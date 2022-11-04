@@ -39,6 +39,12 @@ const inputTextUppercase = inputText.toUpperCase();
 console.log( "Uppercase:", inputText, inputTextUppercase)
 console.log(inputText)
 console.log( "Lowercase:", inputText, inputText.toLowerCase() )
+
+const pizzaName = "Quattro Formaggi" 
+console.log(pizzaName, "maggi", pizzaName.includes("maggi")) // true
+console.log(pizzaName, "maggi", pizzaName.indexOf("maggi")) // 11 (position of string) 
+console.log(pizzaName, "maddy", pizzaName.includes("maddy")) // false
+
 console.log()
 
 // operators 
@@ -48,7 +54,7 @@ console.log( "10 % 3", 10 % 3 ) // 1
 console.log( "10 % 1", 10 % 1 ) // 0
 console.log()
 
-// prozentrechnung
+// prozent-rechnung
 console.log( 25 / 200 ) // => 0.125 => 12.5 Prozent
 console.log( 100 * (25/200) ) // 12.5
 console.log( (25 * 100) / 200 ) // 12.5
