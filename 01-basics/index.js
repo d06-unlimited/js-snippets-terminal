@@ -52,7 +52,7 @@ console.log()
 console.log( 25 / 200 ) // => 0.125 => 12.5 Prozent
 console.log( 100 * (25/200) ) // 12.5
 console.log( (25 * 100) / 200 ) // 12.5
-console.log( 200 * 0.1, "10 % Prozent von 200" ) // 10% von 200 => 20
-console.log( 200 * 0.30, "30 % Prozent von 200" ) // 10% von 200 => 20
-console.log( 200 * 2.5, "250 % Prozent von 200" ) // 10% von 200 => 20
+console.log( 200 * 0.1, "10 Prozent von 200" ) 
+console.log( 200 * 0.30, "30 Prozent von 200" )
+console.log( 200 * 2.5, "250 Prozent von 200" )
 
