@@ -6,9 +6,9 @@ const person = {
 };
 
 // object
-console.log(person);
-console.log(person.name);
-console.log(person.nameyyyyyyy);
+console.log(person); // logs whole object
+console.log(person.name); // logs only the property name (=> a string)
+console.log(person.nameyyyyyyy); // logs undefined, because nameyyyyy does not exist (=> no error is raised!)
 
 // strings / numbers
 
