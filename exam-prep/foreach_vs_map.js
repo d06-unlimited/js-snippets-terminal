@@ -69,7 +69,7 @@ const numbysMapped = numbys.map((num) => {
   num += 2
 
   return num // hand back the changed thingy to map
-  // return undefined
+  // return undefined // if you dont return anything => map will see this as returning "undefined"
 });
 
 console.log(numbys) // [2,4,6]
