@@ -1,6 +1,6 @@
 // eine Zahl um Prozent erhöhen
 const increasePercent = (num, factor) => {
-  // toFixed => rundet Zahl auf zwei Nachkommastellen
+  // toFixed(2) => rundet Zahl auf 2 Nachkommastellen
   // Number() function => konvertiert gerundeten String zurück in eine Number
   // return => gibt die Number zurück
   return Number((num * factor).toFixed(2));
