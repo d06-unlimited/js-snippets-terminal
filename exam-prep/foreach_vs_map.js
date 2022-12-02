@@ -2,7 +2,7 @@
 
 // INPUT: Array ? Number ? String?
 // OUTPUT: Array ? Number? String?
-// => welche Array Method / Loop wir nutzen sollten!
+// => INPUT OUTPUT geben uns einen sehr guten Hinweis, welche Array Method / Loop wir nutzen sollten!
 
 // SZENARIO 1: 
 // INPUT: ARRAY: ['apple', 'banana', 'cherry', 'pineapple', 'peach']
