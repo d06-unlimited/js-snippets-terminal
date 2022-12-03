@@ -1,6 +1,6 @@
 // eine Zahl um Prozent erhöhen
 const increasePercent = (num, factor) => {
-  // toFixed => rundet Zahl auf zwei Nachkommastellen
+  // toFixed(2) => rundet Zahl auf 2 Nachkommastellen
   // Number() function => konvertiert gerundeten String zurück in eine Number
   // return => gibt die Number zurück
   return Number((num * factor).toFixed(2));
@@ -56,6 +56,8 @@ for (let coffee of coffees) {
 console.log(coffees);
 
 // make espresso great again => 2 EUR druff!
+// THREESOME to update a special item
+// LOOP => IF => OBJECT UPDATE
 for (let coffee of coffees) {
   // hardcoded check for an item ==> DISADVANTAGE: not reusable!
   if (coffee.name === "Espresso") {
@@ -63,8 +65,6 @@ for (let coffee of coffees) {
   }
 }
 
-// THREESOME to update a special item
-// LOOP => IF => OBJECT UPDATE
 
 console.log(coffees);
 
