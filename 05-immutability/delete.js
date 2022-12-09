@@ -12,8 +12,10 @@ const coffees = [
 
 
 // coffees.splice(1,1) // direct mutation => NOT allowed!
+
+// 1st method: create a copy of array and splice item out
 // const coffeesCopy = [...coffees]
-// coffeesCopy.splice(1,1)
+// coffeesCopy.splice(1,1) // disadvantage: We have to know position of item we want to delete
 
 // delete an item by using filter
 // immutable change => not touching original
