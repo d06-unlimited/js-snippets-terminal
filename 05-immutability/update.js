@@ -22,6 +22,7 @@ const coffees = [
 // even though we got a new BOX for our items (new array) the objects (!) in the box still are identical in both array!
 // meaning: if we change an object of one array, we also change the same object in the other array :O
 
+// The "Maddy method" => works fine :)
 // const coffeesCopy = []
 // coffees.forEach( coffee => {
 //   const coffeeCopy = { ...coffee };
