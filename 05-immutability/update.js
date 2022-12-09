@@ -17,9 +17,10 @@ const coffees = [
 // coffees[2].price += 4
 
 // this here changes original too! 
-// even though we got a new BOX for our items (new array) the objects in the box till are identical 
 // const coffeesCopy = [...coffees]
 // coffeesCopy[2].price += 4;
+// even though we got a new BOX for our items (new array) the objects (!) in the box still are identical in both array!
+// meaning: if we change an object of one array, we also change the same object in the other array :O
 
 // const coffeesCopy = []
 // coffees.forEach( coffee => {
