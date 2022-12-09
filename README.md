@@ -7,4 +7,5 @@
 - Entscheidungen => if / else, switch / case
 - Schleifen => einen Code MEHRMALS wiederholen
 - Functions => einen Code zu einem bestimmten ZEITPUNKT ausführen (meist getriggert durch User)
+- Spread Operator => Objekte kopieren / clonen
 
