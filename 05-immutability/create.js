@@ -14,7 +14,9 @@ const coffeeNew = { name: "Latte Macchiato", price: 2.5 };
 // change by creating and changing a COPY instead...
 // let coffeesCopy = [...coffees]
 // coffeesCopy.push(coffeeNew)
-let coffeesCopy = [...coffees, coffeeNew]; // create copy and add item in once step
+
+// create copy and add item in one step
+let coffeesCopy = [...coffees, coffeeNew]; 
 
 console.log(coffeesCopy);
 console.log(coffees);
