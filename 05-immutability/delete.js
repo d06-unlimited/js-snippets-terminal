@@ -21,5 +21,5 @@ const coffees = [
 // immutable change => not touching original
 const coffeesCopy = coffees.filter( coffee => coffee.name != "Espresso" )
 
-console.log(coffees)
-console.log(coffeesCopy)
+console.log(coffeesCopy) // item "Espresso" is deleted in copy 
+console.log(coffees) // original is still like before (=immutable)!
