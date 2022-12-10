@@ -19,5 +19,5 @@ const coffeeNew = { name: "Latte Macchiato", price: 2.5 };
 let coffeesCopy = [...coffees, coffeeNew]; 
 
 console.log(coffeesCopy);
-console.log(coffees);
+console.log(coffees); // original stays untouched! 
 
