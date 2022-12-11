@@ -43,6 +43,7 @@ const coffeesCopy = coffees.map(coffee => {
     return coffeeCopy
   }
   // we are not changing this item => justkeep original as it is
+  // this way we will know later, that this item was not updated and does not need to be updated / repainted in the browser
   return coffee
 })
 
